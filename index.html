@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Practica comentarios</title>
+    
+</head>
+<body class="container mt-5">
+    <h1 class="text-center mb-4">Foro de calificaciones</h1>
+    
+    <div class="card p-4 mb-4">
+        <h3 id="nombre" class="card-title"> </h3>
+        <p id="compania" class="card-text"> </p>
+        <p id="cantEstrellas" class="card-text"> </p>
+    </div>
+
+    <div class="mt-4">
+        <h3>Agregar un comentario</h3>
+        <form>
+            <div class="form-group">
+                <label for="personaSelect">Seleccionar nombre</label>
+                <select class="form-control" name="personaSelect" id="personaSelect"></select>
+            </div>
+            <div class="form-group mt-3">
+                <label for="comentario">Comentario</label>
+                <textarea class="form-control" name="comentario" id="comentario" rows="3"></textarea>
+            </div>
+            <input type="submit" class="btn btn-primary mt-3" value="Enviar">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+<!-- - nombre 
+- compañia (a la que vamos a "ponerle" las entrellas)
+- cantidad de estrellas --> 
